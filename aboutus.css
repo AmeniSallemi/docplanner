@@ -1,0 +1,346 @@
+/*navbar*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Roboto";
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  position: fixed;
+  background: hsla(0, 0%, 100%, 0.98);
+  transition: box-shadow 0.25s ease 0s;
+  padding: 15px;
+}
+nav img {
+  width: 180px;
+  font-weight: 300;
+  margin-top: 1%;
+}
+nav ul li {
+  list-style: none;
+  margin-left: 20px;
+  margin-top: 3%;
+}
+nav a {
+  color: #747474;
+  text-decoration: none;
+  cursor: pointer;
+}
+.abt {
+  color: #00b39b;
+}
+nav ul {
+  display: flex;
+}
+nav ul li :hover {
+  color: #00b39b;
+}
+.Med {
+  margin-left: 48%;
+  margin-top: 10%;
+}
+.test p {
+  margin-left: 30%;
+  margin-top: 4%;
+  font-size: xx-large;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+.para {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  justify-content: space-evenly;
+}
+.para p {
+  text-align: left;
+  font-weight: 400;
+  color: slategray;
+  font-size: 16.5px;
+  line-height: 1.7;
+}
+.sec {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 350px;
+  color: white;
+  justify-content: space-evenly;
+}
+.patient:hover {
+  opacity: 0.9;
+}
+.doctor:hover {
+  opacity: 0.9;
+}
+.clinic:hover {
+  opacity: 0.9;
+}
+.sec h1 {
+  font-weight: lighter;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.sec h2 {
+  font-weight: lighter;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+}
+
+.patient {
+  background-color: #21bba6;
+  border-radius: 10px;
+}
+.sec img {
+  width: 20px;
+  height: 20px;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+.sec select {
+  background-color: transparent;
+  border: transparent;
+  color: white;
+  margin-top: 10px;
+  font-size: large;
+  text-decoration: underline;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.sec select option {
+  color: black;
+}
+
+.doctor {
+  background-color: cornflowerblue;
+  border-radius: 10px;
+}
+.clinic {
+  background-color: rgb(46, 52, 66);
+  border-radius: 10px;
+}
+/******************************/
+.part {
+  width: 80%;
+  margin-left: 12%;
+  display: flex;
+}
+.image {
+  filter: grayscale(1);
+  width: 20px;
+  height: 20px;
+}
+.image:hover {
+  filter: none;
+}
+.part section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.part ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+}
+.part ul li {
+  text-decoration: none;
+  list-style: none;
+}
+.part h1 {
+  color: #00b39b;
+  font-weight: lighter;
+  float: left;
+  width: 33%;
+  font-size: 1.5em;
+  margin: 0.25em 0 0.35em;
+  padding-right: 60px;
+}
+.link {
+  margin: 20px;
+  border: transparent;
+  color: #adaaaa;
+  background-color: transparent;
+  font-size: large;
+  font-weight: 600;
+  cursor: pointer;
+}
+.link:hover {
+  color: #00b39b;
+}
+.logo {
+  transition: all 0.2s ease 0s;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+}
+.logo:hover,
+.logo:focus {
+  filter: none;
+}
+/*************/
+.frt {
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #e5faf8;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-content: space-around;
+  background-image: url("../img/logotrp.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position-x: left;
+  background-position-y: 250px;
+  max-height: fit-content;
+}
+.prt {
+  padding: 50px;
+  padding-left: 150px;
+  padding-right: 100px;
+  text-align: left;
+  line-height: 1.5;
+  align-content: center;
+}
+.prt h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+  font-weight: lighter;
+  font-family: Work sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+.prt p {
+  color: #747474;
+}
+
+.frt section {
+  background-color: white;
+  margin: 20px;
+  padding: 15px;
+  height: 220px;
+  width: 200px;
+  border-radius: 8px;
+  text-align: center;
+  display: inline-table;
+}
+.frt section img {
+  padding-top: 30px;
+}
+.frt section h2 {
+  color: #00b39b;
+  font-weight: 200;
+}
+.frt section p {
+  color: #747474;
+  font-size: 0.8em;
+}
+/*******************************/
+.one {
+  text-align: center;
+  width: 35%;
+  margin: 0 auto;
+  padding: 60px;
+}
+.one h1 {
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: normal;
+}
+.one p {
+  font-weight: 400;
+  font-size: 0.9em;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+  padding-top: 30px;
+  letter-spacing: normal;
+  line-height: 1.7;
+}
+/************************************/
+.fin {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fin section {
+  margin: 10px;
+  padding: 0;
+  border: 1px solid;
+  border-color: #eaf0f0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.fin section:hover {
+  box-shadow: 0px 10px 10px lightgray;
+}
+.cbt {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.fin section h3 {
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+.fin section button {
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 0.7em 1em;
+  background: #3d83df;
+  font-family: Roboto, Arial, sans-serif;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  font-size: 0.7em;
+  cursor: pointer;
+}
+/****************************/
+.join {
+  text-align: center;
+  margin: 80px 170px;
+  padding: 0 40px;
+}
+.join p {
+  color: #333333;
+  font: 30px "Work Sans", Arial, sans-serif;
+  padding-bottom: 25px;
+  font-weight: 300;
+}
+.button {
+  color: white;
+  padding: 14px 25px;
+  background-color: #3d83df;
+  font-size: 12.5px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 500;
+  border: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid #eef2f2;
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+footer p {
+  font-size: 12px;
+  color: #ababab;
+  padding-top: 15px;
+}
+footer p a {
+  text-decoration: none;
+  color: #3d83df;
+}
+footer p a:hover {
+  text-decoration: underline;
+}
